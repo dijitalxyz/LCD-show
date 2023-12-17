@@ -94,7 +94,7 @@ elif test "$1" = "270" -o "$2" = "270" ; then
 fi
 
 sudo cp ./waveshare35c-overlay.dtb /boot/overlays/waveshare35c.dtbo
-sudo cp ./waveshare35c-overlay.dtb /boot/overlays/
+sudo cp ./waveshare35c-overlay.dtb /boot/overlays/waveshare35c-overlay.dtbo
 #sudo cp -rf ./usr/share/X11/xorg.conf.d/99-fbturbo.conf  /usr/share/X11/xorg.conf.d/
 if [ -b /dev/mmcblk0p7 ]; then
 sudo cp ./cmdline.txt-noobs /boot/cmdline.txt
